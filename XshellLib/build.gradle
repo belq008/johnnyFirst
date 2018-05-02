@@ -1,0 +1,71 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion "27.0.2"
+
+    packagingOptions {
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/NOTICE'
+    }
+
+    aaptOptions {
+        cruncherEnabled = false
+        useNewCruncher = false
+    }
+
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 26
+        ndk {
+            // 设置支持的SO库架构
+            abiFilters 'armeabi'
+        }
+    }
+
+//    buildTypes {
+//        release {
+//            minifyEnabled false
+//            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+//        }
+//    }
+
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES.txt'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/notice.txt'
+        exclude 'META-INF/license.txt'
+        exclude 'META-INF/dependencies.txt'
+        exclude 'META-INF/LGPL2.1'
+    }
+
+    useLibrary 'org.apache.http.legacy'
+
+
+}
+
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}
+
+dependencies {
+    compile(name: 'CordovaLib', ext: 'aar')
+//    compile project(':CordovaLib')
+    compile fileTree(include: '*.jar', dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile files('libs/autobahn-0.5.0.jar')
+    compile files('libs/xUtils-2.6.14.jar')
+    compile files('libs/okhttp-3.4.1.jar')
+    compile files('libs/okhttputils-2_6_2.jar')
+    //其中latest.release指代最新Bugly SDK版本号，也可以指定明确的版本号，例如2.1.9
+
+    compile 'com.android.support:appcompat-v7:23.0.0'
+    compile files('libs/okio-1.10.0.jar')
+
+}

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.xshell.xshelllib" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="26"
+        tools:overrideLibrary="android.support.v4" />
+    <!-- v4 包冲突 -->
+
+
+    <!-- 微信的权限 -->
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!-- 拨打电话 -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <!-- 友盟权限 start  wn -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_APN_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <!-- 友盟权限 end -->
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:persistent="true"
+        android:supportsRtl="true" >
+
+        <!-- 友盟只在跟投宝开启 -->
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="57946fd0e0f55ae9c40026aa" />
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="Wandoujia" />
+
+        <activity android:name="com.xshell.xshelllib.ui.ReadPdfActivity" />
+        <activity android:name="com.xshell.xshelllib.ui.InputPasswordActivity" />
+        <activity
+            android:name="com.xshell.xshelllib.ui.GuideActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.NoActionBar" />
+        <!-- android:process=":xinyu_remote" -->
+        <activity
+            android:name="com.xshell.xshelllib.ui.NewBrowserActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
+            android:label="@string/title_activity_new_browser"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.zbar.lib.CaptureActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" />
+        <activity android:name="com.xshell.xshelllib.ui.XinyuDemoActivity" />
+
+        <!-- 云之讯 -->
+        <activity
+            android:name="com.xshell.xshelllib.yunzhixun.ConverseActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.xshell.xshelllib.TextOpenCloseMainActivity" />
+    </application>
+
+</manifest>

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\uniApp_copy\\hunag_SDK_419\\XshellLib\\build\\intermediates\\res\\merged\\release\\xml\\xinyusoft_letter.xml",
+        "source": "D:\\uniApp_copy\\hunag_SDK_419\\XshellLib\\src\\main\\res\\xml\\xinyusoft_letter.xml"
+    },
+    {
+        "merged": "D:\\uniApp_copy\\hunag_SDK_419\\XshellLib\\build\\intermediates\\res\\merged\\release\\xml\\xinyusoft_symbols.xml",
+        "source": "D:\\uniApp_copy\\hunag_SDK_419\\XshellLib\\src\\main\\res\\xml\\xinyusoft_symbols.xml"
+    },
+    {
+        "merged": "D:\\uniApp_copy\\hunag_SDK_419\\XshellLib\\build\\intermediates\\res\\merged\\release\\xml\\xinyusoft_numeric.xml",
+        "source": "D:\\uniApp_copy\\hunag_SDK_419\\XshellLib\\src\\main\\res\\xml\\xinyusoft_numeric.xml"
+    },
+    {
+        "merged": "D:\\uniApp_copy\\hunag_SDK_419\\XshellLib\\build\\intermediates\\res\\merged\\release\\xml\\xinyusoft_price.xml",
+        "source": "D:\\uniApp_copy\\hunag_SDK_419\\XshellLib\\src\\main\\res\\xml\\xinyusoft_price.xml"
+    }
+]

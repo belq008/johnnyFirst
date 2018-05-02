@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="actionsheet_blue">#037BFF</color>
+    <color name="actionsheet_gray">#8F8F8F</color>
+    <color name="actionsheet_red">#FD4A2E</color>
+    <color name="alertdialog_line">#c6c6c6</color>
+    <color name="black">#ff000000</color>
+    <color name="color_Input_black">#E8E8E8</color>
+    <color name="color_hei_8">#00000000</color>
+    <color name="color_none">#00000000</color>
+    <color name="colorful_status_bar">#D33D3E</color>
+    <color name="gesture_background">#ff303237</color>
+    <color name="red">#ffff0000</color>
+    <color name="white">#FFFFFF</color>
+    <declare-styleable name="DSAvatarImageView"><attr format="boolean" name="border"/><attr format="dimension" name="border_width"/><attr format="color" name="border_color"/><attr format="color" name="background_color"/><attr format="string" name="name"/></declare-styleable>
+    <declare-styleable name="LockPatternView"><attr name="aspect_shell">
+            <enum name="square" value="0"/>
+            <enum name="lockWidth" value="1"/>
+            <enum name="lockHeight" value="2"/>
+        </attr><attr format="color" name="line"/><attr format="reference" name="btnNormal"/><attr format="reference" name="btnTouched"/><attr format="reference" name="circleNormal"/><attr format="reference" name="circleGreen"/><attr format="reference" name="circleRed"/><attr format="reference" name="arrowGreenUp"/><attr format="reference" name="arrowRedUp"/></declare-styleable>
+    <declare-styleable name="Theme"><attr format="reference" name="avataImageViewStyle"/></declare-styleable>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="candidate_font_height">16sp</dimen>
+    <dimen name="candidate_vertical_padding">6sp</dimen>
+    <dimen name="key_height">45dip</dimen>
+    <drawable name="trans">@color/color_hei_8</drawable>
+    <item name="auto_focus" type="id"/>
+    <item name="decode" type="id"/>
+    <item name="decode_failed" type="id"/>
+    <item name="decode_succeeded" type="id"/>
+    <item name="quit" type="id"/>
+    <item name="restart_preview" type="id"/>
+    <string name="action_settings">Settings</string>
+    <string name="activity_name">@string/launcher_name</string>
+    <string name="app_name">xshell</string>
+    <string name="dial_hide">隐藏</string>
+    <string name="gesture_password_guide_creat_btn">创建手势密码</string>
+    <string name="gesture_password_guide_text">你可以创建一个解锁图案，这样他人在借用你的手机时，将无法打开应用。</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="launcher_name">@string/app_name</string>
+    <string name="lockpattern_confirm_button_text">"确认"</string>
+    <string name="lockpattern_continue_button_text">"继续"</string>
+    <string name="lockpattern_need_to_confirm">"请再次绘制您的手势密码"</string>
+    <string name="lockpattern_need_to_unlock_wrong">"与上次输入不一致，请重试"</string>
+    <string name="lockpattern_pattern_confirmed_header">"确认保存新解锁图案"</string>
+    <string name="lockpattern_pattern_entered_header">"图案已记录"</string>
+    <string name="lockpattern_recording_incorrect_too_short">"至少连接4个点，请重试"</string>
+    <string name="lockpattern_recording_inprogress">"完成后松开手指"</string>
+    <string name="lockpattern_recording_intro_header">"请绘制您的手势密码"</string>
+    <string name="lockpattern_retry_button_text">"重试"</string>
+    <string name="lockpattern_settings_help_how_to_record">"如何绘制解锁图案"</string>
+    <string name="lockscreen_access_pattern_cell_added">"已添加单元格"</string>
+    <string name="lockscreen_access_pattern_cleared">"图案已清除"</string>
+    <string name="lockscreen_access_pattern_detected">"图案绘制完成"</string>
+    <string name="lockscreen_access_pattern_start">"开始绘制图案"</string>
+    <string formatted="false" name="pay_result_callback_msg">微信支付结果：%s</string>
+    <string name="pricelist">奖品列表</string>
+    <string name="scan_tips">将二维码图片对准扫描框即可自动扫描</string>
+    <string name="title_activity_new_browser">NewBrowserActivity</string>
+    <style name="AlertDialogStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <style name="AlexNoAniTheme" parent="android:Theme.Holo.Light.NoActionBar">
+        <item name="android:windowAnimationStyle">@style/myNoAnimation</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:colorBackground">@android:color/white</item>
+    </style>
+    <style name="ButtonGreen" parent="@android:style/Widget.Button">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">@drawable/xinyusoft_skin_color_button</item>
+        <item name="android:background">@drawable/xinyusoft_common_btn_green</item>
+    </style>
+    <style name="ButtonRed" parent="@android:style/Widget.Button">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">@drawable/xinyusoft_skin_color_button</item>
+        <item name="android:background">@drawable/xinyusoft_common_btn_red</item>
+    </style>
+    <style name="NavPage">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center_horizontal</item>
+        <!-- <item name="android:background">@drawable/nav_page</item> -->
+        <item name="android:background">#FFE1E8EB</item>
+    </style>
+    <style name="Theme" parent="android:Theme.Holo.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <!--<item name="android:windowIsTranslucent">true</item>-->
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:colorBackground">@android:color/white</item>
+    </style>
+    <style name="myNoAnimation">
+        <item name="android:activityOpenEnterAnimation">@null</item>
+        <item name="android:activityOpenExitAnimation">@null</item>
+        <item name="android:activityCloseEnterAnimation">@anim/xinyusoft_activity_left_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/xinyusoft_activity_right_out</item>
+        <item name="android:taskOpenEnterAnimation">@null</item>
+        <item name="android:taskOpenExitAnimation">@null</item>
+        <item name="android:taskCloseEnterAnimation">@null</item>
+        <item name="android:taskCloseExitAnimation">@null</item>
+        <item name="android:taskToFrontEnterAnimation">@null</item>
+        <item name="android:taskToFrontExitAnimation">@null</item>
+        <item name="android:taskToBackEnterAnimation">@null</item>
+        <item name="android:taskToBackExitAnimation">@null</item>
+    </style>
+    <style name="mystyle" parent="android:Animation">
+        <item name="@android:windowEnterAnimation">@anim/xinyusoft_dialog_enter</item>
+        <item name="@android:windowExitAnimation">@anim/xinyusoft_dialog_exit</item>
+    </style>
+    <style name="xinyusoft_dialog_fullscreen" parent="@android:style/Theme.Dialog">
+        <!-- 边框 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <!-- 背景透明 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 模糊 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 遮罩层 -->
+        <item name="android:backgroundDimAmount">0.5</item>
+    </style>
+</resources>

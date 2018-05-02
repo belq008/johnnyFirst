@@ -1,0 +1,13 @@
+<android.inputmethodservice.KeyboardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/keyboard_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:keyBackground="@drawable/xinyusoft_btn_keyboard_key"
+    android:keyPreviewLayout="@layout/xinyusoft_key_preview_layout"
+    android:keyTextColor="@color/black"
+    android:shadowColor="@color/white"
+    android:shadowRadius="0.0"
+    />

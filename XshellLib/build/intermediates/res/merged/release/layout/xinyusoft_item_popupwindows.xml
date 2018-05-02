@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/xinyusoft_bg_transparent"
+    >
+
+    <LinearLayout
+        android:id="@+id/ll_popup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#ffffff"
+        android:orientation="vertical" >
+
+        <com.xshell.xshelllib.pay.PasswordView
+            android:id="@+id/passwordView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </com.xshell.xshelllib.pay.PasswordView>
+        
+    </LinearLayout>
+
+</RelativeLayout>

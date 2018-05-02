@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+	android:keyWidth="20%p" android:horizontalGap="0px"
+	android:verticalGap="0px" android:keyHeight="@dimen/key_height">
+	<Row>
+	    <Key android:codes="67801" android:keyLabel="600"/>
+		<Key android:codes="49" android:keyLabel="1" />
+		<Key android:codes="50" android:keyLabel="2" />
+		<Key android:codes="51" android:keyLabel="3" />
+		<Key android:codes="-5" android:keyIcon="@drawable/xinyusoft_jp_ch"
+		    android:isRepeatable="true" 
+		    android:keyEdgeFlags="right" />
+	</Row>
+	<Row>
+	    <Key android:codes="67802" android:keyLabel="601"  />
+		<Key android:codes="52" android:keyLabel="4" />
+		<Key android:codes="53" android:keyLabel="5" />
+		<Key android:codes="54" android:keyLabel="6" />
+		<Key android:codes="67806" android:keyEdgeFlags="right"
+			android:keyLabel="002" />
+	</Row>
+	<Row>
+	    <Key android:codes="67803" android:keyLabel="000"  />
+		<Key android:codes="55" android:keyLabel="7" />
+		<Key android:codes="56" android:keyLabel="8" />
+		<Key android:codes="57" android:keyLabel="9" />
+		<Key android:codes="67804" 
+			android:keyEdgeFlags="right" 
+			android:keyLabel="300" />
+	</Row>
+	<Row>
+	    <Key android:codes="-2" android:keyLabel="ABC" />
+		<Key android:codes="67805" android:keyLabel="00" />
+		<Key android:codes="48" android:keyLabel="0" />
+		<Key android:codes="67901" android:keyLabel="清空"/>
+		<Key android:codes="-3" android:keyLabel="确定" />
+	</Row>
+</Keyboard>

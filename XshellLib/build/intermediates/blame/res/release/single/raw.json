@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\uniApp_copy\\hunag_SDK_419\\XshellLib\\build\\intermediates\\res\\merged\\release\\raw\\test.mp3",
+        "source": "D:\\uniApp_copy\\hunag_SDK_419\\XshellLib\\src\\main\\res\\raw\\test.mp3"
+    },
+    {
+        "merged": "D:\\uniApp_copy\\hunag_SDK_419\\XshellLib\\build\\intermediates\\res\\merged\\release\\raw\\xinyusoft_prompt.wav",
+        "source": "D:\\uniApp_copy\\hunag_SDK_419\\XshellLib\\src\\main\\res\\raw\\xinyusoft_prompt.wav"
+    },
+    {
+        "merged": "D:\\uniApp_copy\\hunag_SDK_419\\XshellLib\\build\\intermediates\\res\\merged\\release\\raw\\beep.ogg",
+        "source": "D:\\uniApp_copy\\hunag_SDK_419\\XshellLib\\src\\main\\res\\raw\\beep.ogg"
+    }
+]

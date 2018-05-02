@@ -1,0 +1,102 @@
+[
+    {
+        "merged": "D:\\uniApp_copy\\hunag_SDK_419\\XshellLib\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_out_bottom.xml",
+        "source": "D:\\uniApp_copy\\hunag_SDK_419\\XshellLib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "D:\\uniApp_copy\\hunag_SDK_419\\XshellLib\\build\\intermediates\\res\\merged\\release\\anim\\abc_fade_in.xml",
+        "source": "D:\\uniApp_copy\\hunag_SDK_419\\XshellLib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "D:\\uniApp_copy\\hunag_SDK_419\\XshellLib\\build\\intermediates\\res\\merged\\release\\anim\\xinyusoft_activity_right_in.xml",
+        "source": "D:\\uniApp_copy\\hunag_SDK_419\\XshellLib\\src\\main\\res\\anim\\xinyusoft_activity_right_in.xml"
+    },
+    {
+        "merged": "D:\\uniApp_copy\\hunag_SDK_419\\XshellLib\\build\\intermediates\\res\\merged\\release\\anim\\xinyusoft_activity_below_in.xml",
+        "source": "D:\\uniApp_copy\\hunag_SDK_419\\XshellLib\\src\\main\\res\\anim\\xinyusoft_activity_below_in.xml"
+    },
+    {
+        "merged": "D:\\uniApp_copy\\hunag_SDK_419\\XshellLib\\build\\intermediates\\res\\merged\\release\\anim\\activity_translate_in.xml",
+        "source": "D:\\uniApp_copy\\hunag_SDK_419\\XshellLib\\src\\main\\res\\anim\\activity_translate_in.xml"
+    },
+    {
+        "merged": "D:\\uniApp_copy\\hunag_SDK_419\\XshellLib\\build\\intermediates\\res\\merged\\release\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "D:\\uniApp_copy\\hunag_SDK_419\\XshellLib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\uniApp_copy\\hunag_SDK_419\\XshellLib\\build\\intermediates\\res\\merged\\release\\anim\\xinyusoft_activity_top_in.xml",
+        "source": "D:\\uniApp_copy\\hunag_SDK_419\\XshellLib\\src\\main\\res\\anim\\xinyusoft_activity_top_in.xml"
+    },
+    {
+        "merged": "D:\\uniApp_copy\\hunag_SDK_419\\XshellLib\\build\\intermediates\\res\\merged\\release\\anim\\xinyusoft_dialog_enter.xml",
+        "source": "D:\\uniApp_copy\\hunag_SDK_419\\XshellLib\\src\\main\\res\\anim\\xinyusoft_dialog_enter.xml"
+    },
+    {
+        "merged": "D:\\uniApp_copy\\hunag_SDK_419\\XshellLib\\build\\intermediates\\res\\merged\\release\\anim\\xinyusoft_shake_x.xml",
+        "source": "D:\\uniApp_copy\\hunag_SDK_419\\XshellLib\\src\\main\\res\\anim\\xinyusoft_shake_x.xml"
+    },
+    {
+        "merged": "D:\\uniApp_copy\\hunag_SDK_419\\XshellLib\\build\\intermediates\\res\\merged\\release\\anim\\abc_fade_out.xml",
+        "source": "D:\\uniApp_copy\\hunag_SDK_419\\XshellLib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "D:\\uniApp_copy\\hunag_SDK_419\\XshellLib\\build\\intermediates\\res\\merged\\release\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "D:\\uniApp_copy\\hunag_SDK_419\\XshellLib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\uniApp_copy\\hunag_SDK_419\\XshellLib\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_in_bottom.xml",
+        "source": "D:\\uniApp_copy\\hunag_SDK_419\\XshellLib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "D:\\uniApp_copy\\hunag_SDK_419\\XshellLib\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_out_top.xml",
+        "source": "D:\\uniApp_copy\\hunag_SDK_419\\XshellLib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "D:\\uniApp_copy\\hunag_SDK_419\\XshellLib\\build\\intermediates\\res\\merged\\release\\anim\\abc_popup_exit.xml",
+        "source": "D:\\uniApp_copy\\hunag_SDK_419\\XshellLib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "D:\\uniApp_copy\\hunag_SDK_419\\XshellLib\\build\\intermediates\\res\\merged\\release\\anim\\activity_open_exit_my.xml",
+        "source": "D:\\uniApp_copy\\hunag_SDK_419\\XshellLib\\src\\main\\res\\anim\\activity_open_exit_my.xml"
+    },
+    {
+        "merged": "D:\\uniApp_copy\\hunag_SDK_419\\XshellLib\\build\\intermediates\\res\\merged\\release\\anim\\xinyusoft_dialog_exit.xml",
+        "source": "D:\\uniApp_copy\\hunag_SDK_419\\XshellLib\\src\\main\\res\\anim\\xinyusoft_dialog_exit.xml"
+    },
+    {
+        "merged": "D:\\uniApp_copy\\hunag_SDK_419\\XshellLib\\build\\intermediates\\res\\merged\\release\\anim\\xinyusoft_activity_left_out.xml",
+        "source": "D:\\uniApp_copy\\hunag_SDK_419\\XshellLib\\src\\main\\res\\anim\\xinyusoft_activity_left_out.xml"
+    },
+    {
+        "merged": "D:\\uniApp_copy\\hunag_SDK_419\\XshellLib\\build\\intermediates\\res\\merged\\release\\anim\\xinyusoft_activity_top_out.xml",
+        "source": "D:\\uniApp_copy\\hunag_SDK_419\\XshellLib\\src\\main\\res\\anim\\xinyusoft_activity_top_out.xml"
+    },
+    {
+        "merged": "D:\\uniApp_copy\\hunag_SDK_419\\XshellLib\\build\\intermediates\\res\\merged\\release\\anim\\xinyusoft_activity_below_out.xml",
+        "source": "D:\\uniApp_copy\\hunag_SDK_419\\XshellLib\\src\\main\\res\\anim\\xinyusoft_activity_below_out.xml"
+    },
+    {
+        "merged": "D:\\uniApp_copy\\hunag_SDK_419\\XshellLib\\build\\intermediates\\res\\merged\\release\\anim\\abc_popup_enter.xml",
+        "source": "D:\\uniApp_copy\\hunag_SDK_419\\XshellLib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "D:\\uniApp_copy\\hunag_SDK_419\\XshellLib\\build\\intermediates\\res\\merged\\release\\anim\\xinyusoft_activity_right_out.xml",
+        "source": "D:\\uniApp_copy\\hunag_SDK_419\\XshellLib\\src\\main\\res\\anim\\xinyusoft_activity_right_out.xml"
+    },
+    {
+        "merged": "D:\\uniApp_copy\\hunag_SDK_419\\XshellLib\\build\\intermediates\\res\\merged\\release\\anim\\activity_translate_out.xml",
+        "source": "D:\\uniApp_copy\\hunag_SDK_419\\XshellLib\\src\\main\\res\\anim\\activity_translate_out.xml"
+    },
+    {
+        "merged": "D:\\uniApp_copy\\hunag_SDK_419\\XshellLib\\build\\intermediates\\res\\merged\\release\\anim\\xinyusoft_interpolator_cycle.xml",
+        "source": "D:\\uniApp_copy\\hunag_SDK_419\\XshellLib\\src\\main\\res\\anim\\xinyusoft_interpolator_cycle.xml"
+    },
+    {
+        "merged": "D:\\uniApp_copy\\hunag_SDK_419\\XshellLib\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_in_top.xml",
+        "source": "D:\\uniApp_copy\\hunag_SDK_419\\XshellLib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "D:\\uniApp_copy\\hunag_SDK_419\\XshellLib\\build\\intermediates\\res\\merged\\release\\anim\\xinyusoft_activity_left_in.xml",
+        "source": "D:\\uniApp_copy\\hunag_SDK_419\\XshellLib\\src\\main\\res\\anim\\xinyusoft_activity_left_in.xml"
+    }
+]

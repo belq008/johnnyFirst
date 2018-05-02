@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\uniApp_copy\\hunag_SDK_419\\XshellLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\xml\\xinyusoft_numeric.xml",
+        "source": "D:\\uniApp_copy\\hunag_SDK_419\\XshellLib\\build\\intermediates\\bundles\\debug\\res\\xml\\xinyusoft_numeric.xml"
+    },
+    {
+        "merged": "D:\\uniApp_copy\\hunag_SDK_419\\XshellLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\xml\\xinyusoft_price.xml",
+        "source": "D:\\uniApp_copy\\hunag_SDK_419\\XshellLib\\build\\intermediates\\bundles\\debug\\res\\xml\\xinyusoft_price.xml"
+    },
+    {
+        "merged": "D:\\uniApp_copy\\hunag_SDK_419\\XshellLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\xml\\xinyusoft_letter.xml",
+        "source": "D:\\uniApp_copy\\hunag_SDK_419\\XshellLib\\build\\intermediates\\bundles\\debug\\res\\xml\\xinyusoft_letter.xml"
+    },
+    {
+        "merged": "D:\\uniApp_copy\\hunag_SDK_419\\XshellLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\xml\\xinyusoft_symbols.xml",
+        "source": "D:\\uniApp_copy\\hunag_SDK_419\\XshellLib\\build\\intermediates\\bundles\\debug\\res\\xml\\xinyusoft_symbols.xml"
+    }
+]
